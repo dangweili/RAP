@@ -1,6 +1,6 @@
 ## General
 # data
-./data/RAP_annotation/RAP_annotation.mat
+./data/RAP_annotation/*.mat
 ./data/RAP_dataset/RAP_dataset.zip
 ./data/RAP_dataset_hs/*.png
 ./data/RAP_dataset_lb/*.png
