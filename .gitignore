@@ -1,0 +1,47 @@
+## General
+# data
+./data/RAP_annotation/RAP_annotation.mat
+./data/RAP_dataset/RAP_dataset.zip
+./data/RAP_dataset_hs/*.png
+./data/RAP_dataset_lb/*.png
+./data/RAP_dataset_hs/*.png
+
+# feature
+./features/*.mat
+./features/CNN-v1.0-Descriptor/models/CaffeNet/*.caffemodel
+./features/CNN-v1.0-Descriptor/models/GoogleLeNet/*.caffemodel
+./features/CNN-v1.0-Descriptor/models/JSTL-DGD/*.caffemodel
+./features/CNN-v1.0-Descriptor/models/ResNet/*.caffemodel
+
+# model 
+*.caffemodel
+*.solverstate
+
+# pretrained models
+./person-attribute/pretrained/*.caffemodel
+./person-reid/pretrained/*.caffemodel
+
+# person attribute
+./person-attribute/static/images-list/*.txt
+./person-attribute/static/images-list-binary/*.txt
+./person-attribute/static/images-list-parts/*.txt
+
+./person-attribute/baseline-svm/models/*.mat
+./person-attribute/baseline-svm/parts_rank_list/*.txt
+./person-attribute/baseline-svm/personbyperson_recognition_result/*.txt
+./person-attribute/baseline-svm/results/*.mat
+./person-attribute/baseline-svm/view_rank_list/*.txt
+
+# person re-id
+./person-reid/static/classification/*.txt
+./person-reid/static/classification-0/*.txt
+./person-reid/static/classification-1/*.txt
+./person-reid/static/classification-control/*.txt
+
+./person-reid/evaluation/features/*.mat
+./person-reid/evaluation/lmdb/*lmdb*
+./person-reid/evaluation/visualization/*.txt
+./person-reid/evaluation/visualization_control/*.txt
+./person-reid/evaluation/results/**.mat
+./person-reid/evaluation/results_control/**.mat
+
