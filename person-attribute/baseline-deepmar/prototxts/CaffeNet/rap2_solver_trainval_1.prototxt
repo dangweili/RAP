@@ -1,0 +1,21 @@
+train_net:"./prototxts/CaffeNet/rap2_trainval_1.prototxt"
+test_net:"./prototxts/CaffeNet/rap2_test_1.prototxt"
+
+#50957 for train, 16986 fro val, 16985 for test
+#50957/256 = 200
+test_iter: 170
+test_interval:2000 
+
+display: 20
+average_loss: 20
+
+base_lr: 0.001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 20000
+max_iter: 50000
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 50000
+snapshot_prefix: "temp_models/CaffeNet/rap2_trainval_part1"
+solver_mode: GPU

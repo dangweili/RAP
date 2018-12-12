@@ -1,0 +1,20 @@
+train_net: "./prototxts/APR/rap2_train.prototxt"
+test_net: "./prototxts/APR/rap2_val.prototxt"
+
+test_iter: 83 
+test_interval: 1000
+test_initialization: true
+display: 20
+average_loss: 20
+
+base_lr: 0.01
+lr_policy: "step"
+gamma: 0.1
+stepsize: 20000
+max_iter: 50000
+
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 10000
+snapshot_prefix: "temp_models/APR/rap2_train_eachatt1_id1"
+solver_mode: GPU

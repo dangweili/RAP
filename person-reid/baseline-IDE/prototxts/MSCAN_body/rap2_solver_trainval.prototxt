@@ -1,0 +1,15 @@
+train_net: "./prototxts/MSCAN_body/rap2_trainval.prototxt"
+
+base_lr: 0.01
+lr_policy: "step"
+gamma: 0.1
+# should change to 10000
+stepsize: 10000
+display: 50
+max_iter: 50000
+momentum: 0.9
+weight_decay: 0.005
+# should change to 5000
+snapshot: 5000 
+snapshot_prefix: "temp_models/MSCAN_body/rap2_trainval"
+solver_mode: GPU

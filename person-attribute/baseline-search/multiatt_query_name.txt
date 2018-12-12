@@ -1,0 +1,150 @@
+1 female hs-LongHair 
+2 male hs-Hat 
+3 female hs-Glasses 
+4 male hs-Glasses 
+5 female ub-Shirt 
+6 male ub-Shirt 
+7 female ub-Sweater 
+8 male ub-Sweater 
+9 female ub-Vest 
+10 male ub-Vest 
+11 female ub-TShirt 
+12 male ub-TShirt 
+13 female ub-Cotton 
+14 male ub-Cotton 
+15 female ub-Jacket 
+16 male ub-Jacket 
+17 female ub-SuitUp 
+18 male ub-SuitUp 
+19 female ub-Tight 
+20 male ub-Tight 
+21 female ub-ShortSleeve 
+22 male ub-ShortSleeve 
+23 female lb-LongTrousers 
+24 male lb-LongTrousers 
+25 female lb-Skirt 
+26 female lb-ShortSkirt 
+27 female lb-Dress 
+28 female lb-Jeans 
+29 male lb-Jeans 
+30 female lb-TightTrousers 
+31 male attachment-Backpack 
+32 female attachment-ShoulderBag 
+33 male attachment-ShoulderBag 
+34 female attachment-HandBag 
+35 male attachment-HandBag 
+36 female attachment-Box 
+37 male attachment-Box 
+38 female attachment-PlasticBag 
+39 male attachment-PlasticBag 
+40 male attachment-PaperBag 
+41 female attachment-HandTrunk 
+42 male attachment-HandTrunk 
+43 female hs-LongHair ub-Shirt 
+44 female hs-LongHair ub-Sweater 
+45 female hs-LongHair ub-Vest 
+46 female hs-LongHair ub-TShirt 
+47 female hs-LongHair ub-Cotton 
+48 female hs-LongHair ub-Jacket 
+49 female hs-LongHair ub-Tight 
+50 female hs-LongHair ub-ShortSleeve 
+51 male hs-Hat ub-Jacket 
+52 male hs-Glasses ub-Shirt 
+53 male hs-Glasses ub-TShirt 
+54 male hs-Glasses ub-Cotton 
+55 male hs-Glasses ub-Jacket 
+56 female hs-LongHair lb-LongTrousers 
+57 female hs-LongHair lb-Skirt 
+58 female hs-LongHair lb-ShortSkirt 
+59 female hs-LongHair lb-Dress 
+60 female hs-LongHair lb-Jeans 
+61 female hs-LongHair lb-TightTrousers 
+62 male hs-Hat lb-LongTrousers 
+63 male hs-Glasses lb-LongTrousers 
+64 male hs-Glasses lb-Jeans 
+65 female hs-LongHair attachment-ShoulderBag 
+66 female hs-LongHair attachment-HandBag 
+67 female ub-Shirt lb-LongTrousers 
+68 male ub-Shirt lb-LongTrousers 
+69 male ub-Shirt lb-Jeans 
+70 female ub-Sweater lb-LongTrousers 
+71 male ub-Sweater lb-LongTrousers 
+72 male ub-Sweater lb-Jeans 
+73 female ub-Sweater lb-TightTrousers 
+74 female ub-Vest lb-LongTrousers 
+75 male ub-Vest lb-LongTrousers 
+76 female ub-Vest lb-TightTrousers 
+77 female ub-TShirt lb-LongTrousers 
+78 male ub-TShirt lb-LongTrousers 
+79 female ub-TShirt lb-Skirt 
+80 female ub-TShirt lb-ShortSkirt 
+81 female ub-TShirt lb-Jeans 
+82 male ub-TShirt lb-Jeans 
+83 female ub-TShirt lb-TightTrousers 
+84 female ub-Cotton lb-LongTrousers 
+85 male ub-Cotton lb-LongTrousers 
+86 male ub-Cotton lb-Jeans 
+87 female ub-Cotton lb-TightTrousers 
+88 female ub-Jacket lb-LongTrousers 
+89 male ub-Jacket lb-LongTrousers 
+90 female ub-Jacket lb-Skirt 
+91 female ub-Jacket lb-ShortSkirt 
+92 female ub-Jacket lb-Jeans 
+93 male ub-Jacket lb-Jeans 
+94 female ub-Jacket lb-TightTrousers 
+95 male ub-SuitUp lb-LongTrousers 
+96 female ub-Tight lb-LongTrousers 
+97 male ub-Tight lb-LongTrousers 
+98 male ub-Tight lb-Jeans 
+99 female ub-ShortSleeve lb-LongTrousers 
+100 male ub-ShortSleeve lb-LongTrousers 
+101 female ub-ShortSleeve lb-Jeans 
+102 male ub-ShortSleeve lb-Jeans 
+103 male ub-Shirt attachment-ShoulderBag 
+104 male ub-Shirt attachment-Box 
+105 male ub-TShirt attachment-ShoulderBag 
+106 male ub-TShirt attachment-Box 
+107 female ub-Cotton attachment-ShoulderBag 
+108 male ub-Cotton attachment-ShoulderBag 
+109 female ub-Cotton attachment-HandBag 
+110 male ub-Jacket attachment-Backpack 
+111 male ub-Jacket attachment-ShoulderBag 
+112 male ub-Jacket attachment-Box 
+113 male ub-Jacket attachment-PlasticBag 
+114 male ub-Jacket attachment-HandTrunk 
+115 male lb-LongTrousers attachment-Backpack 
+116 female lb-LongTrousers attachment-ShoulderBag 
+117 male lb-LongTrousers attachment-ShoulderBag 
+118 male lb-LongTrousers attachment-HandBag 
+119 male lb-LongTrousers attachment-Box 
+120 male lb-LongTrousers attachment-PlasticBag 
+121 female lb-LongTrousers attachment-HandTrunk 
+122 male lb-LongTrousers attachment-HandTrunk 
+123 male lb-Jeans attachment-ShoulderBag 
+124 male lb-Jeans attachment-Box 
+125 female lb-TightTrousers attachment-ShoulderBag 
+126 female lb-TightTrousers attachment-HandBag 
+127 male ub-Shirt lb-LongTrousers attachment-ShoulderBag 
+128 male ub-Cotton lb-LongTrousers attachment-ShoulderBag 
+129 male ub-Jacket lb-LongTrousers attachment-Backpack 
+130 male ub-Jacket lb-LongTrousers attachment-ShoulderBag 
+131 male ub-Jacket lb-LongTrousers attachment-Box 
+132 male ub-Jacket lb-Jeans attachment-ShoulderBag 
+133 female hs-LongHair ub-Shirt lb-LongTrousers 
+134 female hs-LongHair ub-Sweater lb-LongTrousers 
+135 female hs-LongHair ub-Sweater lb-TightTrousers 
+136 female hs-LongHair ub-Vest lb-LongTrousers 
+137 female hs-LongHair ub-Vest lb-TightTrousers 
+138 female hs-LongHair ub-TShirt lb-LongTrousers 
+139 female hs-LongHair ub-TShirt lb-Jeans 
+140 female hs-LongHair ub-TShirt lb-TightTrousers 
+141 female hs-LongHair ub-Cotton lb-LongTrousers 
+142 female hs-LongHair ub-Cotton lb-TightTrousers 
+143 female hs-LongHair ub-Jacket lb-LongTrousers 
+144 female hs-LongHair ub-Jacket lb-Jeans 
+145 female hs-LongHair ub-Jacket lb-TightTrousers 
+146 female hs-LongHair ub-ShortSleeve lb-LongTrousers 
+147 male hs-Glasses ub-Shirt lb-LongTrousers 
+148 male hs-Glasses ub-TShirt lb-LongTrousers 
+149 male hs-Glasses ub-Jacket lb-LongTrousers 
+150 male hs-Glasses ub-Jacket lb-Jeans 

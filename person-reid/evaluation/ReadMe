@@ -1,0 +1,25 @@
+feature extraction:
+    rap2_evaluation.m:
+        matlab feature extraction is ok.
+    rap2_feature_extraction.sh:
+        for efficience, the c++ feature extraction with python wraper to transfrom lmdb to mat
+        Integed with parse_lmdb_to_mat.py, the network only forward once and both att and ide feature can be extracted
+test:
+    The first verson of evaluation is based on matlab.
+
+rap2_reid_display_distractor.m 
+    Output the rank list.
+rap2_reid_display_distractor_control.m
+    Output the rank list in single day and cross day seperately.
+
+rap2_test_control_single_cross.my
+    test the re-identification results on single day and cross day, respectively.
+
+rap2_test_control_instance_instance.m, file not exists, the same as re-id with distractors
+rap2_test_control_instance_identity.m 
+    test the re-identification results on single day and cross day. However, the test images' attribute annotations are changed to the identitiy-based.
+rap2_test_control_identity_instance.m
+    test the re-identification results on single day and cross day. However, the training images' attribute annotation are changed to identity-based.
+rap2_test_control_identity_identity.m
+    test the re-identification results on single day and cross day. However, the training and test images' attribute annotations are both changed to identity-based.
+

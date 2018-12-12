@@ -1,0 +1,20 @@
+train_net: "./prototxts/ResNet50/rap2_trainval_1.prototxt"
+# test_net: "./prototxts/ResNet50/rap2_test_1.prototxt"
+
+# test_iter: 200
+# test_interval: 5000
+# test_initialization: true
+display: 20
+average_loss: 20
+
+base_lr: 0.001
+lr_policy: "step"
+gamma: 0.1
+stepsize: 30000
+max_iter: 90000
+
+momentum: 0.9
+weight_decay: 0.0005
+snapshot: 30000
+snapshot_prefix: "temp_models/ResNet50/rap2_trainval_part1"
+solver_mode: GPU

@@ -1,0 +1,4 @@
+classification-0: replace the -1 labels with 0, e.g. using the sigmoid cross entropy loss
+classification-1: using mutiple softmax loss
+
+classification-control: replace the instance-based attributes with identity-based attributes in training set.

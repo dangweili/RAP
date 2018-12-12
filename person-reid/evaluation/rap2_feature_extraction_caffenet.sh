@@ -1,0 +1,28 @@
+#!/bin/bash sh
+
+Net=CaffeNet
+Model_iter=50000
+Iter_cnt=420
+Model_type=trainval
+Alg_type=IDE-att # IDE-att or IDE or att
+GPUID=2
+
+if [ ! -d "lmdb/result_${Net}_att_lmdb" ]; then
+    echo "OK"
+else
+    rm -rf lmdb/result_${Net}_att_lmdb
+fi
+
+if [ ! -d "lmdb/result_${Net}_ide_lmdb" ]; then
+    echo "OK"
+else
+    rm -rf lmdb/result_${Net}_ide_lmdb
+fi
+extract_features ./../baseline-${Alg_type}/temp_models/${Net}/rap2_${Model_type}_iter_${Model_iter}.caffemodel \
+    ./deploy/${Net}/deploy_IDE_att.prototxt \
+    fine_fc8_att,fc7 lmdb/result_${Net}_att_lmdb,lmdb/result_${Net}_ide_lmdb ${Iter_cnt} lmdb GPU ${GPUID} 
+
+python parse_lmdb_to_mat.py lmdb/result_${Net}_att_lmdb 41585 ./features/${Net}/${Alg_type}_att.mat
+python parse_lmdb_to_mat.py lmdb/result_${Net}_ide_lmdb 41585 ./features/${Net}/${Alg_type}_ide.mat
+
+
