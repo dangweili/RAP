@@ -29,6 +29,7 @@
 <font face="Times New Roman" size=4>
 
 1. SVM-based models
+
     a. feature extraction, including ELF and pretrained CNN features:
     ```
     cd features/ELF-v2.0-Descriptor
@@ -89,6 +90,7 @@
     ```
 
 2. CNN-based models
+
     a. prepare the data splits.
     ```
     cd person-attribute/static
@@ -139,6 +141,7 @@ The product of multiple attributes' prediction probability are used for person r
 <font face="Times New Roman" size=4>
 
 1. hand-crafted features/pretrained cnn features with L2/XQDA/KISSME
+
     a. feature extraction, incluidng ELF, LOMO, GOG (window), JSTL
     ```
     cd features/ReID_GOG_v1.01
@@ -191,6 +194,7 @@ The product of multiple attributes' prediction probability are used for person r
     matlab -nodisplay -r 'rap2_test' [one model per time]
     ```
 3. cross-day person retrieval
+
     a. person retrieval in the same day as query or the different day as query.
     ```
     cd person-reid/evaluation
@@ -202,6 +206,7 @@ The product of multiple attributes' prediction probability are used for person r
     matlab -nodisplay -r 'rap2_test_control_single_cross_quantively'
     ```
 4. identity-level attribute vs. instance-level attributes for person re-identification.
+
     a. generate identity-level attributes from instance-level attributes for training.
     ```
     cd person-reid/static
