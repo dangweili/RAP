@@ -9,7 +9,7 @@
 
 2. Download and prepare the dataset as follow:
    
-    RAP [Links](http://rap.idealtest.org/)
+    RAP [Links](https://drive.google.com/open?id=1hoPIB5NJKf3YGMvLFZnIYG5JDcZTxHph)
     ```
     ./data/RAP_annotation/RAP_annotation.mat
     ./data/RAP_dataset/*.png
@@ -20,6 +20,8 @@
     cd data
     matlab -nodisplay -r 'rap2_part_extraction'
     ```
+3. Download the imagenet pretrained models.
+   ImageNet pretrained models which is used in finetuning [Baiduyun](https://pan.baidu.com/s/1IxZ6GrAFSfhT9Ipa7a-Zuw) or [GoogleDrive](https://drive.google.com/open?id=14p0MLyAdsoGaqfSGvj-IH59Ifo2Ojjqp).
 
 </font>
 
@@ -237,7 +239,10 @@ Please cite this paper in your publications if it helps your research:
     title={A Richly Annotated Pedestrian Dataset for Person Retrieval in Real Surveillance Scenarios},
     author={Li, Dangwei and Zhang, Zhang and Chen, Xiaotang and Huang, Kaiqi},
     journal={IEEE Transactions on Image Processing},
-    year={2018},
+    volume={28},
+    number={4},
+    pages={1575--1590},
+    year={2019},
     publisher={IEEE}
 }
 ```
